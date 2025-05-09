@@ -1,36 +1,48 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f2f5;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100%;
     margin: 0;
+  }
+
+  .tot {
+    display: flex;
   }
 
   .formu {
     background: white;
     padding: 20px 25px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    width: 320px;
+    width: 960px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
   }
 
   label {
-   
+    margin-left: 10px;
+    font-weight: light bold;
   }
 
   input {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
-    width: 240px;
-    border-color: rgb(187, 85, 255);
-    border-radius: 20px;
+    width: 440px;
+    height: 30px;
+    border-color: rgb(185, 185, 185);
+    border-radius: 40px;
+  }
+
+  ::-webkit-input-placeholder {
+    margin-left: 300px;
+  }
+
+  input:hover {
+    border-color: rgb(212, 42, 255);
   }
 
   #mensg {
@@ -39,6 +51,9 @@ body {
 
   #tit1 {
     font-size: 30px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    margin-left: 10px;
   }
 
   button {
@@ -47,16 +62,23 @@ body {
     padding: 15px;
     border-radius: 60px;
     border: none;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 0 0 15px #cecece;
+    background-color: rgb(146, 21, 196);
     width: 200px;
     height: 40px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    color: #ffffff;
   }
 
-  button :hover {
-    background-color: rgb(143, 143, 143);
+  button:hover {
+    box-shadow: 0 0 15px #e694ff;
   }
+
+  #img-form {
+    width: 1160px;
+    margin-left: 0;
+
+  }
+  
