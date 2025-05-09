@@ -35,10 +35,15 @@ nav
     
     a:hover
 {
-    color: aqua;
+    color: rgb(193, 121, 238);
+} 
 }
 
-    
-    
-
+main > p
+{
+    font-size: 60px;
+}
+#Descrição
+{
+  font-size: 12px;
 }
