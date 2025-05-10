@@ -1,49 +1,108 @@
-*
-{
-    margin: 0px;
+* {
+    margin: 0;
     box-sizing: border-box;
     list-style: none;
-    color: black;
     text-decoration: none;
-}
-body
-{
+    color: black;
+  }
+  
+  body {
     width: 100%;
-}
-header
-{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
     background-color: rgb(46, 2, 66);
     height: 110px;
     display: flex;
     justify-content: space-between;
-}
-#logo
-{
-    margin-left: 50px ;
-    margin-top: -9px;
-}
-nav
-{
+    align-items: center;
+  }
+  
+  #logo {
+    margin-left: 50px;
+  }
+  
+  nav {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-right: 50px;
-    a{
-        color: white;
-        font-size: 26px;
-    }
-    
-    a:hover
-{
+  }
+  
+  nav a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
     color: rgb(193, 121, 238);
-} 
-}
-
-main > p
-{
-    font-size: 60px;
-}
-#Descrição
-{
-  font-size: 12px;
-}
+  }
+  
+  main {
+    margin-top: 30px;
+    padding: 0 40px;
+  }
+  .banner
+  {
+  }
+  .banner > p {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  #descricao {
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+    line-height: 1.6;
+  }
+  
+  section {
+    margin-bottom: 60px;
+    background: rgb(44, 3, 63);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  
+  .service-item {
+    background: linear-gradient(145deg, #010549, #3b035b);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(102, 5, 115, 0.4);
+    color: #f3e6f7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(81, 8, 94, 0.7);
+  }
+  
+  .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  
+  .service-item p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: #f8ecff;
+  }
+  
